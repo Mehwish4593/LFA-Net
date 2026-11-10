@@ -1,0 +1,9 @@
+tensorflow==2.21.0
+tf_keras==2.21.0
+numpy
+scikit-image
+pillow
+
+# only needed for evaluate.py (the Python port of Prediction_code)
+scipy
+scikit-learn
