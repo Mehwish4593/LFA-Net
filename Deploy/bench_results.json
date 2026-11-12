@@ -1,0 +1,11 @@
+{
+  "cpu": "x86_64",
+  "threads": 4,
+  "input": "512x512x3",
+  "onnx_mb_fp32": 0.515492,
+  "fp32": {
+    "latency_ms_median": 336.4,
+    "latency_ms_p90": 369.5,
+    "peak_rss_mb_above_baseline": 0.0
+  }
+}
