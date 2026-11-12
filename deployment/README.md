@@ -62,7 +62,7 @@ Only needed if the weights change. This step does need TensorFlow:
 
     pip install tensorflow tf-keras tf2onnx onnx
 
-    cd Deploy
+    cd deployment
     export TF_USE_LEGACY_KERAS=1        # Windows PowerShell: $env:TF_USE_LEGACY_KERAS="1"
     python export_lfanet.py
 
